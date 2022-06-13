@@ -1,0 +1,46 @@
+ext {
+    swaggerBootVersion = '3.0.0'
+    logastashLogbackVersion = '6.6'
+    chunkTemplatesVersion = '3.6.2'
+    mapStructVersion = '1.4.2.Final'
+}
+
+dependencies {
+    api 'org.springframework.boot:spring-boot-starter-web'
+    api project(':swagger-parser-api')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'io.swagger.parser.v3:swagger-parser:2.0.30'
+    implementation 'org.liquibase:liquibase-core'
+    runtimeOnly 'org.postgresql:postgresql'
+    implementation "net.logstash.logback:logstash-logback-encoder:${logastashLogbackVersion}"
+    implementation "com.x5dev:chunk-templates:${chunkTemplatesVersion}"
+    implementation 'org.springframework.boot:spring-boot-starter-freemarker'
+    implementation 'org.springframework:spring-context-support:5.3.10'
+    implementation "org.mapstruct:mapstruct:${mapStructVersion}"
+    annotationProcessor "org.mapstruct:mapstruct-processor:${mapStructVersion}"
+    implementation 'org.json:json:20220320'
+
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs += [
+                    project(":swagger-parser-db").sourceSets.main.resources
+            ]
+        }
+    }
+}
+
+compileJava {
+    options.compilerArgs = ['-Amapstruct.defaultComponentModel=spring']
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
+

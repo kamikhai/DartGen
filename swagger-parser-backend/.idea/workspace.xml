@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="998b4992-9b5b-4a59-98bd-000adf20c2ce" name="Changes" comment="add security">
+      <change afterPath="$PROJECT_DIR$/swagger_work_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_work_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_work_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_work_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-parser-impl/src/main/java/com/example/swaggerparser/service/impl/ParametersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-parser-impl/src/main/java/com/example/swaggerparser/service/impl/ParametersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/swagger-parser-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/swagger-parser-db">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/swagger-parser-impl">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="swagger-parser" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="swagger-parser" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="swagger-parser" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="swagger-parser" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.1.13/a318f1a4e2ca0cea01af5a0f4284dda4344167/swagger-models-2.1.13-sources.jar!/io/swagger/v3/oas/models/Paths.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.1.13/a318f1a4e2ca0cea01af5a0f4284dda4344167/swagger-models-2.1.13-sources.jar!/io/swagger/v3/oas/models/OpenAPI.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.1.13/a318f1a4e2ca0cea01af5a0f4284dda4344167/swagger-models-2.1.13-sources.jar!/io/swagger/v3/oas/models/security/SecurityRequirement.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-models/2.1.13/a318f1a4e2ca0cea01af5a0f4284dda4344167/swagger-models-2.1.13-sources.jar!/io/swagger/v3/oas/models/security/SecurityScheme.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2676kRUNdos1r1uUZZ7m4ufuwae" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="jdk.selected.JAVA_MODULE" value="11.0.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swagger-parser-impl/src/main/resources/templates" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17675781" />
+    <property name="project.structure.side.proportion" value="0.29131985" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.swaggerparser.service.impl" />
+      <recent name="com.example.swaggerparser.service" />
+      <recent name="ru.itis.swaggerparser.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/swagger-parser-impl/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/swagger-parser-db/src/main/resources/db/changelog/v1/DML/sql" />
+      <recent name="$PROJECT_DIR$/swagger-parser-db/src/main/resources/db/changelog/v1/DML" />
+      <recent name="$PROJECT_DIR$/swagger-parser-db/src/main/resources/db/changelog/v1/DDL" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.swaggerparser.mapper" />
+      <recent name="com.example.swaggerparser.dto" />
+      <recent name="com.example.swaggerparser.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SwaggerParserApplication (1)">
+    <configuration name="EnumParserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.swaggerparser.service.impl.EnumParserServiceImpl" />
+      <module name="swagger-parser.swagger-parser-impl.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swaggerparser.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameConverterServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.swaggerparser.service.impl.NameConverterServiceImpl" />
+      <module name="swagger-parser.swagger-parser-impl.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swaggerparser.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swagger-parser [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="swagger-parser [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="swagger-parser [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SwaggerParserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swagger-parser.swagger-parser-impl.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.swaggerparser.SwaggerParserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/swagger_pet2.json" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.NameConverterServiceImpl" />
+      <item itemvalue="Application.EnumParserServiceImpl" />
+      <item itemvalue="Gradle.swagger-parser [assemble]" />
+      <item itemvalue="Gradle.swagger-parser [build]" />
+      <item itemvalue="Gradle.swagger-parser [clean]" />
+      <item itemvalue="Spring Boot.SwaggerParserApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.swagger-parser [build]" />
+        <item itemvalue="Gradle.swagger-parser [clean]" />
+        <item itemvalue="Application.EnumParserServiceImpl" />
+        <item itemvalue="Gradle.swagger-parser [assemble]" />
+        <item itemvalue="Application.NameConverterServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="998b4992-9b5b-4a59-98bd-000adf20c2ce" name="Changes" comment="" />
+      <created>1646762421744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646762421744</updated>
+      <workItem from="1646762423289" duration="2643000" />
+      <workItem from="1649181326954" duration="3529000" />
+      <workItem from="1649355493914" duration="344000" />
+      <workItem from="1649355847829" duration="5242000" />
+      <workItem from="1649442033733" duration="29117000" />
+      <workItem from="1649657677346" duration="12000" />
+      <workItem from="1649685958392" duration="1430000" />
+      <workItem from="1649838809488" duration="14503000" />
+      <workItem from="1650008444842" duration="85000" />
+      <workItem from="1650046128929" duration="3671000" />
+      <workItem from="1650050189326" duration="3624000" />
+      <workItem from="1650125208218" duration="3483000" />
+      <workItem from="1650280921306" duration="2381000" />
+      <workItem from="1650649348866" duration="10202000" />
+      <workItem from="1651152634794" duration="4785000" />
+      <workItem from="1651342752267" duration="4603000" />
+      <workItem from="1651730881346" duration="1000" />
+      <workItem from="1652081767090" duration="43288000" />
+      <workItem from="1652355715399" duration="34067000" />
+      <workItem from="1652863466311" duration="148000" />
+      <workItem from="1652871334661" duration="50443000" />
+      <workItem from="1653499005828" duration="30000" />
+      <workItem from="1653507051615" duration="1657000" />
+      <workItem from="1653545650564" duration="422000" />
+      <workItem from="1653587887726" duration="23012000" />
+      <workItem from="1654091582816" duration="9000" />
+      <workItem from="1654103808137" duration="9364000" />
+      <workItem from="1654354994436" duration="2894000" />
+      <workItem from="1654625340222" duration="1932000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix check to void return type">
+      <created>1649621765712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649621765712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add objects and endpoints choosing">
+      <created>1651569732532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651569732532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add parametrized objects">
+      <created>1652120320530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652120320530</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add enums">
+      <created>1652128723272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652128723272</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make refactoring">
+      <created>1652174868916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652174868916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add zip generation">
+      <created>1652988184487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652988184487</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add enum generation">
+      <created>1653425143696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653425143696</updated>
+    </task>
+    <task id="LOCAL-00008" summary="beautify code">
+      <created>1653463571615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653463571615</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rename fields">
+      <created>1653465260722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653465260722</updated>
+    </task>
+    <task id="LOCAL-00010" summary="some fixes">
+      <created>1653679897338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653679897338</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add security">
+      <created>1654625485041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625485041</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix check to void return type" />
+    <MESSAGE value="add objects and endpoints choosing" />
+    <MESSAGE value="Add parametrized objects" />
+    <MESSAGE value="Add enums" />
+    <MESSAGE value="make refactoring" />
+    <MESSAGE value="add zip generation" />
+    <MESSAGE value="add enum generation" />
+    <MESSAGE value="beautify code" />
+    <MESSAGE value="rename fields" />
+    <MESSAGE value="some fixes" />
+    <MESSAGE value="add security" />
+    <option name="LAST_COMMIT_MESSAGE" value="add security" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itis/swaggerparser/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/swagger-parser-impl/src/main/java/com/example/swaggerparser/service/impl/TypeMappingServiceImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/swagger-parser-impl/src/main/java/com/example/swaggerparser/service/impl/ReturnTypeServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/swagger-parser-impl/src/main/java/com/example/swaggerparser/service/impl/SecurityServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="schema.$ref" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
